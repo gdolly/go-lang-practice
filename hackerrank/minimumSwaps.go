@@ -4,7 +4,6 @@ import (
     "sort"
 )
 
-// Complete the minimumSwaps function below.
 func MinimumSwaps(arr []int32) int32 {
     newArray := make([]int, len(arr))
     for index, num := range(arr) {
